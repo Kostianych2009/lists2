@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.html{
+    scroll-behavior: smooth;
+}
+body{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+a{
+    margin: 15px 25px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: #047681
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s linear;
+}
+.ul{
+    list-style-type: none;
+}
+section{
+    height: 100vh;
+}
+.logo,
+.header{
+    display: flex; 
+    flex-direction: column;
+}
+.logo{
+    align-self: center;
+}
+
+.logo__img1,
+.logo__img2{
+    width: 300px
+}
+.nav__item a{
+    cursor: url('./images/cursor.png'), pointer;
+}
+.nav__list{
+    display: flex;
+}
+.nav a:hover{
+    border: 2px solid #fee3de;
+    color:  #fee3de;
+    background-color: #047681;
+}
+section li{
+    list-style-image: url('./images/face_point.png');
+    background-color: #047681;
+    list-style-position: inside;
+}
+section ul,
+section ol{
+    margin-left: 50px;
+}
